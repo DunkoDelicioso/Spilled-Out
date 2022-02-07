@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+  background: white;
+    overflow: auto;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#container {
+    z-index: 100;
+    position: relative;
+    padding: 50px;
+    font-family: 'Spartan', sans-serif;
+    height: 700px;
+  }
+
+  #overlay{
+    z-index: 100;
+    padding: 15px;
+    font-family: arial;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  #overlay1{
+    font-family: 'Spartan', sans-serif;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    position: relative;
+  }
+
+  #overlay2{
+    font-family: 'Spartan', sans-serif;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    position: relative;
+  }
+
+  #lesson{
+    margin-top: 1000px;
+    padding: 50px;
+    color: white;
+  }
+
+  #bugger{
+    font-family: 'Spartan', sans-serif;
+    font-style: italic;
+    font-size: 8px;
+  }
+
+  .button{
+    position: fixed;
+    z-index: 101;
+    font-family: 'Spartan', sans-serif;
+    background: rgba(0, 0, 0, 0.342);
+    color: white;
+    margin-left: 80%;
+    margin-top: 50px;
+    padding: 30px;
+
+  }
+
+
+  .button:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.664);
+  }
+
+  #left {
+    font-family: 'Spartan', sans-serif;
+    font-size: 10px;
+    color: white;
+    float: left;
+    padding: 2.5%;
+    width: 45%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.205);
+    overflow-y: scroll;
+}
+
+#right {
+    font-family: 'Spartan', sans-serif;
+    font-size: 10px;
+    padding: 2.5%;
+    color: white;
+    float: left;
+    width: 45%;
+    height: 200px;
+    background: rgba(255, 0, 0, 0.479);
+    overflow: scroll;
+}
+
+/*# sourceMappingURL=main.css.map*/
